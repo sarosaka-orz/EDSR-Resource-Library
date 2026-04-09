@@ -4,7 +4,7 @@
 [![OS](https://img.shields.io/badge/OS-Arch%20Linux-1793d1?logo=arch-linux)](https://archlinux.org/)
 [![Environment](https://img.shields.io/badge/Env-Docker-2496ed?logo=docker)](https://www.docker.com/)
 
-This repository contains the implementation of an **Enhanced Deep Residual Network (EDSR)** optimized for local NVIDIA RTX hardware. The project demonstrates why **local GPU acceleration** is superior to cloud computing for latency-sensitive visual tasks, achieving millisecond-level inference on an Arch Linux-based system.
+This repository contains the implementation of an **Enhanced Deep Residual Network (EDSR)** optimized for local NVIDIA RTX hardware. The project demonstrates why **local GPU acceleration** is superior to cloud computing for latency-sensitive visual tasks, achieving millisecond-level inference on an Arch Linux-based system. Based on open-source project BasicSR as framework, which is available on GitHub.
 
 ## 🌟 Key Features
 - **Local Acceleration:** Leverages NVIDIA Tensor Cores for ultra-low latency.
@@ -34,8 +34,7 @@ sudo systemctl enable --now docker
 ### 2. Clone and Build
 ```bash
 git clone https://github.com/your-username/local-rtx-sr.git
-cd local-rtx-sr
-docker build -t rtx-sr-env .
+# then check BasicSR's official repo pls
 ```
 
 ### 3. Run Inference
