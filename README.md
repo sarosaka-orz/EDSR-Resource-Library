@@ -33,7 +33,7 @@ sudo systemctl enable --now docker
 
 ### 2. Clone and Build
 ```bash
-git clone https://github.com/your-username/local-rtx-sr.git
+git clone ...
 # then check BasicSR's official repo pls
 ```
 
