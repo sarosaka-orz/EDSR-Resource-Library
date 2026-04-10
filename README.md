@@ -64,9 +64,7 @@ We achieved convergence using **Automatic Mixed Precision (AMP)** to maintain st
 ---
 
 ## 🖼️ Visual Results
-*(Tip: Replace the images below with your Aptos-styled comparison plots)*
-
-![Comparison Plot](./results/comparison_zoom.png)
+*(Tip: Maybe later.)
 *Figure: Comparison between Bicubic, EDSR (Ours), and Ground Truth. Note the sharp reconstruction of high-frequency textures.*
 
 ---
