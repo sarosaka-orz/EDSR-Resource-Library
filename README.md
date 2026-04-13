@@ -58,8 +58,7 @@ The following table summarizes the deterministic latency achieved on the **RTX 3
 
 ### Training Progress
 We achieved convergence using **Automatic Mixed Precision (AMP)** to maintain stability under the 6GB VRAM limit.
-- **Loss:** L1 Loss minimized to `[Your Value]`.
-- **Validation PSNR:** Reached `[Your PSNR] dB` on Set5 (x4).
+- **Validation PSNR:** Reached `30.14 dB` on Set5 (x4).
 
 ---
 
